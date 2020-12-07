@@ -1,145 +1,365 @@
 fileFormatVersion: 2
 guid: 04d5fd8cc5d7f1d47bcaec7e276da822
 ModelImporter:
-  serializedVersion: 15
-  fileIDToRecycleName:
-    100000: LeftUpLeg
-    100002: Hips
-    100004: Util
-    100006: Reference
-    100008: //RootNode
-    100010: Surgeon_A_Cloth
-    100012: RightFoot
-    100014: RightLeg
-    100016: RightUpLeg
-    100018: RightHandIndex3
-    100020: RightHandIndex2
-    100022: RightHandIndex1
-    100024: RightHandThumb3
-    100026: RightHandThumb2
-    100028: RightHandThumb1
-    100030: RightHand
-    100032: RightForeArm
-    100034: RightArm
-    100036: RightEyeLidUp
-    100038: Head
-    100040: Neck
-    100042: Spine2
-    100044: Spine1
-    100046: Spine
-    100048: LeftFoot
-    100050: LeftLeg
-    100052: RightShoulder
-    100054: LeftHandIndex3
-    100056: LeftHandIndex2
-    100058: LeftHandIndex1
-    100060: LeftHandThumb3
-    100062: LeftHandThumb2
-    100064: LeftHandThumb1
-    100066: LeftHand
-    100068: LeftForeArm
-    100070: LeftArm
-    100072: LeftShoulder
-    100074: LeftEyeLid
-    100076: LeftEye
-    100078: LeftEyeLidUp
-    100080: RightEyeLid
-    100082: RightEye
-    400000: LeftUpLeg
-    400002: Hips
-    400004: Util
-    400006: Reference
-    400008: //RootNode
-    400010: Surgeon_A_Cloth
-    400012: RightFoot
-    400014: RightLeg
-    400016: RightUpLeg
-    400018: RightHandIndex3
-    400020: RightHandIndex2
-    400022: RightHandIndex1
-    400024: RightHandThumb3
-    400026: RightHandThumb2
-    400028: RightHandThumb1
-    400030: RightHand
-    400032: RightForeArm
-    400034: RightArm
-    400036: RightEyeLidUp
-    400038: Head
-    400040: Neck
-    400042: Spine2
-    400044: Spine1
-    400046: Spine
-    400048: LeftFoot
-    400050: LeftLeg
-    400052: RightShoulder
-    400054: LeftHandIndex3
-    400056: LeftHandIndex2
-    400058: LeftHandIndex1
-    400060: LeftHandThumb3
-    400062: LeftHandThumb2
-    400064: LeftHandThumb1
-    400066: LeftHand
-    400068: LeftForeArm
-    400070: LeftArm
-    400072: LeftShoulder
-    400074: LeftEyeLid
-    400076: LeftEye
-    400078: LeftEyeLidUp
-    400080: RightEyeLid
-    400082: RightEye
-    4300000: Surgeon_A_Cloth
-    11100000: //RootNode
-    13700000: Reference
-    13700002: Surgeon_A_Cloth
+  serializedVersion: 20101
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: LeftUpLeg
+  - first:
+      1: 100002
+    second: Hips
+  - first:
+      1: 100004
+    second: Util
+  - first:
+      1: 100006
+    second: Reference
+  - first:
+      1: 100008
+    second: //RootNode
+  - first:
+      1: 100010
+    second: Surgeon_A_Cloth
+  - first:
+      1: 100012
+    second: RightFoot
+  - first:
+      1: 100014
+    second: RightLeg
+  - first:
+      1: 100016
+    second: RightUpLeg
+  - first:
+      1: 100018
+    second: RightHandIndex3
+  - first:
+      1: 100020
+    second: RightHandIndex2
+  - first:
+      1: 100022
+    second: RightHandIndex1
+  - first:
+      1: 100024
+    second: RightHandThumb3
+  - first:
+      1: 100026
+    second: RightHandThumb2
+  - first:
+      1: 100028
+    second: RightHandThumb1
+  - first:
+      1: 100030
+    second: RightHand
+  - first:
+      1: 100032
+    second: RightForeArm
+  - first:
+      1: 100034
+    second: RightArm
+  - first:
+      1: 100036
+    second: RightEyeLidUp
+  - first:
+      1: 100038
+    second: Head
+  - first:
+      1: 100040
+    second: Neck
+  - first:
+      1: 100042
+    second: Spine2
+  - first:
+      1: 100044
+    second: Spine1
+  - first:
+      1: 100046
+    second: Spine
+  - first:
+      1: 100048
+    second: LeftFoot
+  - first:
+      1: 100050
+    second: LeftLeg
+  - first:
+      1: 100052
+    second: RightShoulder
+  - first:
+      1: 100054
+    second: LeftHandIndex3
+  - first:
+      1: 100056
+    second: LeftHandIndex2
+  - first:
+      1: 100058
+    second: LeftHandIndex1
+  - first:
+      1: 100060
+    second: LeftHandThumb3
+  - first:
+      1: 100062
+    second: LeftHandThumb2
+  - first:
+      1: 100064
+    second: LeftHandThumb1
+  - first:
+      1: 100066
+    second: LeftHand
+  - first:
+      1: 100068
+    second: LeftForeArm
+  - first:
+      1: 100070
+    second: LeftArm
+  - first:
+      1: 100072
+    second: LeftShoulder
+  - first:
+      1: 100074
+    second: LeftEyeLid
+  - first:
+      1: 100076
+    second: LeftEye
+  - first:
+      1: 100078
+    second: LeftEyeLidUp
+  - first:
+      1: 100080
+    second: RightEyeLid
+  - first:
+      1: 100082
+    second: RightEye
+  - first:
+      4: 400000
+    second: LeftUpLeg
+  - first:
+      4: 400002
+    second: Hips
+  - first:
+      4: 400004
+    second: Util
+  - first:
+      4: 400006
+    second: Reference
+  - first:
+      4: 400008
+    second: //RootNode
+  - first:
+      4: 400010
+    second: Surgeon_A_Cloth
+  - first:
+      4: 400012
+    second: RightFoot
+  - first:
+      4: 400014
+    second: RightLeg
+  - first:
+      4: 400016
+    second: RightUpLeg
+  - first:
+      4: 400018
+    second: RightHandIndex3
+  - first:
+      4: 400020
+    second: RightHandIndex2
+  - first:
+      4: 400022
+    second: RightHandIndex1
+  - first:
+      4: 400024
+    second: RightHandThumb3
+  - first:
+      4: 400026
+    second: RightHandThumb2
+  - first:
+      4: 400028
+    second: RightHandThumb1
+  - first:
+      4: 400030
+    second: RightHand
+  - first:
+      4: 400032
+    second: RightForeArm
+  - first:
+      4: 400034
+    second: RightArm
+  - first:
+      4: 400036
+    second: RightEyeLidUp
+  - first:
+      4: 400038
+    second: Head
+  - first:
+      4: 400040
+    second: Neck
+  - first:
+      4: 400042
+    second: Spine2
+  - first:
+      4: 400044
+    second: Spine1
+  - first:
+      4: 400046
+    second: Spine
+  - first:
+      4: 400048
+    second: LeftFoot
+  - first:
+      4: 400050
+    second: LeftLeg
+  - first:
+      4: 400052
+    second: RightShoulder
+  - first:
+      4: 400054
+    second: LeftHandIndex3
+  - first:
+      4: 400056
+    second: LeftHandIndex2
+  - first:
+      4: 400058
+    second: LeftHandIndex1
+  - first:
+      4: 400060
+    second: LeftHandThumb3
+  - first:
+      4: 400062
+    second: LeftHandThumb2
+  - first:
+      4: 400064
+    second: LeftHandThumb1
+  - first:
+      4: 400066
+    second: LeftHand
+  - first:
+      4: 400068
+    second: LeftForeArm
+  - first:
+      4: 400070
+    second: LeftArm
+  - first:
+      4: 400072
+    second: LeftShoulder
+  - first:
+      4: 400074
+    second: LeftEyeLid
+  - first:
+      4: 400076
+    second: LeftEye
+  - first:
+      4: 400078
+    second: LeftEyeLidUp
+  - first:
+      4: 400080
+    second: RightEyeLid
+  - first:
+      4: 400082
+    second: RightEye
+  - first:
+      43: 4300000
+    second: Surgeon_A_Cloth
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Reference
+  - first:
+      137: 13700002
+    second: Surgeon_A_Cloth
+  externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 1
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
-    animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .00999999978
+    globalScale: 0.01
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
+    keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
+    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 0
     normalImportMode: 0
     tangentImportMode: 1
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
+    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
