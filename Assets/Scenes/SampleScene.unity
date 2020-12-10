@@ -205,7 +205,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 04e6247ca3b94824a976b6afaf9e623f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 04e6247ca3b94824a976b6afaf9e623f, type: 3}
       propertyPath: m_RootOrder
@@ -16694,7 +16694,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: e3217e269cc5d5d4f98ee7a9eae80321, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e3217e269cc5d5d4f98ee7a9eae80321, type: 3}
       propertyPath: m_StaticEditorFlags
