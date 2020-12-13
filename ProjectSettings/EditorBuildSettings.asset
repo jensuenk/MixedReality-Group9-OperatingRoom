@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/OR_Room/OR_Room.unity
     guid: 2d1cf3a144e07c342bf387c37e4e8362
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
     path: Assets/Scenes/AnimationSound.unity
     guid: ed5385012f1dd4a6496cedc7d6bb5241
   m_configObjects:
