@@ -9,7 +9,7 @@ public class AudioScript : MonoBehaviour
     void Start()
     {
         myAudio = GetComponent<AudioSource>();
-        myAudio.PlayDelayed(13.0f);
+        myAudio.PlayDelayed(18.0f);
         
     }
 
