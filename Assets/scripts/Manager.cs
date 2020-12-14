@@ -11,7 +11,7 @@ public class Manager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        StartCoroutine(fadeWhiteAndChangeCamera());
     }
 
     // Update is called once per frame
@@ -19,7 +19,7 @@ public class Manager : MonoBehaviour
     {
         if (change)
         {
-            StartCoroutine(fadeBlackAndChangeCamera());
+            StartCoroutine(fadeWhiteAndChangeCamera());
             change = false;
         }
     }
@@ -28,8 +28,9 @@ public class Manager : MonoBehaviour
 
     }
 
-    public IEnumerator fadeBlackAndChangeCamera()
+    public IEnumerator fadeWhiteAndChangeCamera()
     {
+        yield return new WaitForSeconds(90f);
         while (cnv.alpha < 1)
         {
             cnv.alpha += Time.deltaTime / 2;
