@@ -12,9 +12,9 @@ public class test : MonoBehaviour
     {
         audioSource1.PlayScheduled(AudioSettings.dspTime+20.0);
         double clipLength = audioSource1.clip.samples / audioSource1.clip.frequency;
-        audioSource2.PlayScheduled(AudioSettings.dspTime + clipLength+40.0);
+        audioSource2.PlayScheduled(AudioSettings.dspTime + clipLength+80.0);
         clipLength = clipLength + audioSource2.clip.samples / audioSource2.clip.frequency;
-        audioSource3.PlayScheduled(AudioSettings.dspTime + clipLength+ 60.0);
+        audioSource3.PlayScheduled(AudioSettings.dspTime + clipLength+ 95.0);
     }
 
     // Update is called once per frame
