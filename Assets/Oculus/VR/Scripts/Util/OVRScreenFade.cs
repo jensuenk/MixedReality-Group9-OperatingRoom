@@ -175,7 +175,7 @@ public class OVRScreenFade : MonoBehaviour
 	/// <summary>
 	/// Fades alpha from 1.0 to 0.0
 	/// </summary>
-	IEnumerator Fade(float startAlpha, float endAlpha)
+	public IEnumerator Fade(float startAlpha, float endAlpha)
 	{
 		float elapsedTime = 0.0f;
 		while (elapsedTime < fadeTime)
