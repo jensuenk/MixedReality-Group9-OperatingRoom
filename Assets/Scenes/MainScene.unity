@@ -10365,11 +10365,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79455fa91b0d45b593a83625811bc8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioHeartbeat: {fileID: 1286019838}
-  speaker1: {fileID: 217169185}
-  speaker2: {fileID: 481292586}
-  speaker3: {fileID: 574221309}
-  speaker4: {fileID: 1145113956}
 --- !u!1 &1050872488
 GameObject:
   m_ObjectHideFlags: 0
@@ -13473,11 +13468,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79455fa91b0d45b593a83625811bc8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioHeartbeat: {fileID: 0}
-  speaker1: {fileID: 0}
-  speaker2: {fileID: 0}
-  speaker3: {fileID: 0}
-  speaker4: {fileID: 0}
 --- !u!82 &1264077203
 AudioSource:
   m_ObjectHideFlags: 0
@@ -15159,6 +15149,8 @@ PlayableDirector:
     value: {fileID: 177095825}
   - key: {fileID: -2495581132508329829, guid: fd0b0c88cb38e46f3ac96c5e48feead0, type: 2}
     value: {fileID: 1176447997}
+  - key: {fileID: 4676085291066122721, guid: fd0b0c88cb38e46f3ac96c5e48feead0, type: 2}
+    value: {fileID: 1264077203}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1407611497
