@@ -33,7 +33,7 @@ public class Manager : MonoBehaviour
 
     public IEnumerator fadeWhiteAndChangeCamera()
     {
-        yield return new WaitForSeconds(90f);
+        yield return new WaitForSeconds(105f);
         //while (cnv.alpha < 1)
         //{
         //    cnv.alpha += Time.deltaTime / 2;
