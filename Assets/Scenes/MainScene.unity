@@ -9850,6 +9850,18 @@ PrefabInstance:
       propertyPath: SnapRotation
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11400010, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: EnableRotation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400010, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: useProfileData
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400010, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: EnableLinearMovement
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 11400020, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -9868,7 +9880,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 14300000, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114814064252544740, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_Enabled
@@ -20513,8 +20525,8 @@ MonoBehaviour:
   cnv: {fileID: 1782227177}
   patientcamera: {fileID: 47124861}
   OutofbodyCamera: {fileID: 854905462}
-  OVRScreenFadePatient: {fileID: 817181803}
-  OVRScreenFadeOutOfBody: {fileID: 909909192}
+  OVRScreenFadePatient: {fileID: 909909192}
+  OVRScreenFadeOutOfBody: {fileID: 1755984975}
   change: 0
 --- !u!4 &1989124798
 Transform:
