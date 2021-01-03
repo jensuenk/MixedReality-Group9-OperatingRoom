@@ -69,10 +69,10 @@ public class OVRScreenFade : MonoBehaviour
 		float height = 2f;
 		float depth = 1f;
 
-		vertices[0] = new Vector3(-width, -height, depth);
-		vertices[1] = new Vector3(width, -height, depth);
-		vertices[2] = new Vector3(-width, height, depth);
-		vertices[3] = new Vector3(width, height, depth);
+		vertices[0] = new Vector3(-width*2, -height*2, depth);
+		vertices[1] = new Vector3(width*2, -height*2, depth);
+		vertices[2] = new Vector3(-width*2, height*2, depth);
+		vertices[3] = new Vector3(width*2, height*2, depth);
 
 		mesh.vertices = vertices;
 
