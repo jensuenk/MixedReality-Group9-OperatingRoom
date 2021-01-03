@@ -17,7 +17,7 @@ public class PreOpScript : MonoBehaviour
         audioNurse.PlayScheduled(AudioSettings.dspTime+ 15.0);
         double clipLength = audioNurse.clip.samples / audioNurse.clip.frequency;
 
-        audioAnastisist.PlayScheduled(AudioSettings.dspTime + clipLength+ 47.0);
+        audioAnastisist.PlayScheduled(AudioSettings.dspTime + clipLength+ 49.0);
         clipLength = clipLength + audioAnastisist.clip.samples / audioAnastisist.clip.frequency;
 
         audioSurgeon.PlayScheduled(AudioSettings.dspTime + clipLength+ 50.0);
