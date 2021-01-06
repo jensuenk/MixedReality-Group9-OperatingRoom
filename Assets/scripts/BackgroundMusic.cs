@@ -10,7 +10,8 @@ public class BackgroundMusic : MonoBehaviour
     {
         myAudio = GetComponent<AudioSource>();
         myAudio.PlayDelayed(105.0f);
-        StopAudio();
+        
+        StartCoroutine(StopAudio());
         
     }
     // Update is called once per frame
