@@ -15,6 +15,8 @@ public class Manager : MonoBehaviour
     {
         //OutofbodyCamera.enabled = false;;
         StartCoroutine(fadeWhiteAndChangeCamera());
+        StartCoroutine(fadeEnd());
+        
     }
 
     // Update is called once per frame
@@ -24,6 +26,7 @@ public class Manager : MonoBehaviour
         {
             StartCoroutine(fadeWhiteAndChangeCamera());
             change = false;
+
         }
     }
     public void PatientToOutOfBody()
@@ -59,5 +62,11 @@ public class Manager : MonoBehaviour
         StartCoroutine(OVRScreenFadeOutOfBody.Fade(1, 0));
 
         yield return null;
+    }
+
+    public IEnumerator fadeEnd(){
+        yield return new WaitForSeconds(217f);
+
+        StartCoroutine(OVRScreenFadeOutOfBody.Fade(0,1));
     }
 }
