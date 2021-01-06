@@ -11,10 +11,16 @@ public class ToolsSounds : MonoBehaviour
         myAudio = GetComponent<AudioSource>();
         myAudio.PlayDelayed(130.0f);
         
+        StartCoroutine(StopAudio());
     }
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public IEnumerator StopAudio(){
+        yield return new WaitForSeconds(217f);
+        myAudio.Stop();
     }
 }
